@@ -1,14 +1,13 @@
 # California Housing: End-to-End Machine Learning Project Workflow
 Repositori ini berisi implementasi lengkap alur kerja Machine Learning untuk dataset California Housing, mencakup teknik Unsupervised Learning (clustering) dan Supervised Learning (classification)
 
-Ringkasan Proyek
-Proyek ini bertujuan untuk melakukan segmentasi wilayah perumahan dan memambangun model prediksi yang telah dioptimasi.
+Ringkasan Proyek ini bertujuan untuk melakukan segmentasi wilayah perumahan dan memambangun model prediksi yang telah dioptimasi.
 
 Alur Kerja Notebook
 1. Tahap Clustering
    
    A. Data Preprocessing: 
-   * Feature Selection: menghapus kolom yang tidak relevean (Date, ID, IP, Address).
+   * Feature Selection: menghapus kolom yang tidak relevan (Date, ID, IP, Address).
    * Feature Encoding: menggunakan LabelEncoder untuk fitur kategorikal.
    * Outlier Handling: Pembersihan outlier menggunakan metode drop
    * Feature Scaling: standardisasi fitur numerik dengan StandardScaler.
